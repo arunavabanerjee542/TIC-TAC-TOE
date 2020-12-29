@@ -10,6 +10,15 @@ namespace TIC_TAC_TOE
     {
         static void Main(string[] args)
         {
+            GAME tictactoe = new GAME();
+
+           Player winner =  tictactoe.play();
+
+
+            Console.WriteLine(winner);
+          
+
+
         }
     }
 }
